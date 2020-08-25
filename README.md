@@ -37,7 +37,9 @@ Project's requirements: [The odin final rails project](https://www.theodinprojec
 
 The user can:
 
-(Will be developed later)
+- Log into its account 
+- Send friend requests
+- Accept friend requests from other users
 
 ## Developed by
 
