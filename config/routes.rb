@@ -10,8 +10,8 @@ Rails.application.routes.draw do
 
   authenticated :user do
 
-    root 'users#index'
-  
+    root 'users#welcome'
+
   end
 
 
@@ -20,6 +20,6 @@ Rails.application.routes.draw do
     root to: 'devise/sessions#new'
 
     delete 'sign_out', :to => 'devise/sessions#destroy'
-  
+
   end
 end
